@@ -1,0 +1,15 @@
+spec_version: 1
+name: stock-investment-agent
+type: space
+runtime: fastapi
+app: server.app:app
+port: 8000
+tasks:
+  - name: nifty_screen
+    difficulty: easy
+  - name: sector_rotation
+    difficulty: medium
+  - name: portfolio_risk
+    difficulty: hard
+  - name: rbi_stress
+    difficulty: expert
